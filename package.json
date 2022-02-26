@@ -1,0 +1,22 @@
+{
+  "name": "theroof.company",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "muleify -pw src dst -s dst"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBurnsby/theroof.company.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheBurnsby/theroof.company/issues"
+  },
+  "homepage": "https://github.com/TheBurnsby/theroof.company#readme"
+}
