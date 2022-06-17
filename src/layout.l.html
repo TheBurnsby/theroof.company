@@ -1,26 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <base href="/">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>The Roof Company | Arizona Roofing Company</title>
+
+    <meta name="description" content="<!-- { " variable": "description" } -->">
+    <meta name="keywords" content="<!-- { " variable": "keywords" } -->">
+    
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="The Roof Company">
+    <meta property="og:title" content="<!-- { " variable": "title" } -->">
+    <meta property="og:description" content="<!-- { " variable": "description" } -->">
+    
+    <script src="./assets/astatine.min.js" defer></script>
+    <script src="./index.js" defer></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700|Lato:300" rel="stylesheet">
 
     <link rel="stylesheet" href="/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
 </head>
+<!DOCTYPE html>
+<html lang="en">
+
 <body>
+
     <header>
-        <div class="row center-xs">
-            <div class="col-xs">Logo</div>
-            <div class="col-xs">
-                phone number
+        <div class="phone hide-lg">
+            <a href="tel:" data-track="click: phone, click">
+                <div class="phone-border">
+                    <object data="./assets/phone.svg" type="image/svg+xml">Phone Icon</object>
+                </div>
+                <span></span>
+            </a>
+        </div>
+        <a href="./">
+            <div class="logo">
+                <object data="./assets/logo.svg" type="image/svg+xml">Logo</object>
+            </div>
+        </a>
+
+        <div class="menu row">
+            <div class="col-xs icon hide-sm">
+                <a href="tel:">
+                    <object data="./assets/phone.svg" type="image/svg+xml">Phone Icon</object>
+                    <div>
+                        Call Us
+                    </div>
+                </a>
+            </div>
+            <div class="col-xs icon hide-sm">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <object data="./assets/facebook.svg" type="image/svg+xml">Facebook Icon</object>
+                    <div>
+                        Facebook
+                    </div>
+                </a>
+            </div>
+            <div class="col-xs icon mobile-menu b">
+                <div class="menu-icon-open"></div>
+                <div>
+                    Menu
+                </div>
+            </div>
+            <div class="drawer">
+                <div class="menu-icon-close"></div>
+                <a href="./">Home</a>
+                <a href="./about">About Us</a>
+                <a href="./gallery">Our Work</a>
+                <a href="./#contact">Contact Us</a>
             </div>
         </div>
     </header>
+
     <main>
-        <!-- { "layout": "*" } -->
+        <!-- { "layout": "*" }  -->
     </main>
-    <footer></footer>
+
+    <footer class="center-xs">
+        <article>
+            <div class="row between-xs">
+                <div class="col-xs start-xs">&copy; The Roof Company</div>
+            </div>
+        </article>
+    </footer>
 </body>
-</html>
